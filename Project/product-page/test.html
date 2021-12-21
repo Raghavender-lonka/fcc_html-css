@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
+
+        #form {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        @media (max-width: 650px) {
+            nav {
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 0 50px;
+            }
+
+            nav li {
+                padding-bottom: 5px;
+            }
+        }
+
+        nav>ul {
+            width: 35vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        @media (max-width: 650px) {
+            nav>ul {
+                flex-direction: column;
+            }
+        }
+
+        /* img {
+            display: flex;
+            justify-content: flex-end;
+            align-self: center;
+        } */
+
+        iframe {
+            display: block;
+            justify-content: center;
+            margin: auto;
+        }
+
+        @media (max-width: 360px) {
+            header {
+                display: flex;
+                justify-content: center;
+            }
+
+            img {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            #video {
+                margin: auto;
+            }
+        }
+
+        #one {
+            display: block;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <!-- <h1>RAG's Products</h1> -->
+
+        <nav id="nav-bar">
+            <h3>
+                <a href="#one" class="nav-link">Full-Stack</a>
+                <a href="#two" class="nav-link">Front-End</a>
+                <a href="#three" class="nav-link">Back-End</a>
+            </h3>
+        </nav>
+        <img src="" alt="" id="header-img">
+    </header>
+    <br><br>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+        <br>
+        <input id="submit" type="submit" value="Get Started" class="btn">
+    </form>
+    <section id="one">
+        <h2>Full-Stack</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat turpis non lectus
+            scelerisque, ac tempor libero rutrum. Nam lacinia, arcu in laoreet semper, odio augue sollicitudin lectus,
+            posuere dictum sapien lorem varius ante. Sed sem orci, vestibulum at rhoncus at, bibendum a urna. Maecenas
+            et sapien auctor, vulputate urna ut, tempor tellus. Integer ipsum odio, tincidunt in turpis pretium,
+            hendrerit ullamcorper diam. Quisque volutpat sapien tempor gravida accumsan. Nullam at imperdiet dui. Sed
+            mattis, velit ut mollis commodo, nisi arcu ultrices velit, eget accumsan ex mauris vitae ante. Nam
+            ullamcorper sed urna in consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur
+            eu justo finibus, ullamcorper justo a, feugiat est. Cras venenatis felis lorem, non auctor ipsum imperdiet
+            vel.
+        </p>
+    </section>
+    <section id="two">
+        <h2>Front-End</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat turpis non lectus
+            scelerisque, ac tempor libero rutrum. Nam lacinia, arcu in laoreet semper, odio augue sollicitudin lectus,
+            posuere dictum sapien lorem varius ante. Sed sem orci, vestibulum at rhoncus at, bibendum a urna. Maecenas
+            et sapien auctor, vulputate urna ut, tempor tellus. Integer ipsum odio, tincidunt in turpis pretium,
+            hendrerit ullamcorper diam. Quisque volutpat sapien tempor gravida accumsan. Nullam at imperdiet dui. Sed
+            mattis, velit ut mollis commodo, nisi arcu ultrices velit, eget accumsan ex mauris vitae ante. Nam
+            ullamcorper sed urna in consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur
+            eu justo finibus, ullamcorper justo a, feugiat est. Cras venenatis felis lorem, non auctor ipsum imperdiet
+            vel
+        </p>
+    </section>
+    <section id="three">
+        <h2>Back-End</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat turpis non lectus
+            scelerisque, ac tempor libero rutrum. Nam lacinia, arcu in laoreet semper, odio augue sollicitudin lectus,
+            posuere dictum sapien lorem varius ante. Sed sem orci, vestibulum at rhoncus at, bibendum a urna. Maecenas
+            et sapien auctor, vulputate urna ut, tempor tellus. Integer ipsum odio, tincidunt in turpis pretium,
+            hendrerit ullamcorper diam. Quisque volutpat sapien tempor gravida accumsan. Nullam at imperdiet dui. Sed
+            mattis, velit ut mollis commodo, nisi arcu ultrices velit, eget accumsan ex mauris vitae ante. Nam
+            ullamcorper sed urna in consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur
+            eu justo finibus, ullamcorper justo a, feugiat est. Cras venenatis felis lorem, non auctor ipsum imperdiet
+            vel
+        </p>
+    </section>
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen id="video"></iframe>
+    </section>
+
+</body>
+
+</html>
