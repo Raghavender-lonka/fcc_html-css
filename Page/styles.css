@@ -1,0 +1,51 @@
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        #tribute-info {
+            margin: 0px 150px;
+        }
+
+        main {
+            background: linear-gradient(90deg, #F4C430, white, Green);
+        }
+
+        body {
+            background-color: honeydew;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 20px;
+        }
+
+        table {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+
+        img {
+            max-width: 80%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        #img-div {
+            background: honeydew;
+            padding: 10px;
+            margin: 0;
+        }
+
+        #img-caption {
+            margin: 15px 0 5px 0;
+        }
+
+        @media (max-width: 460px) {
+            #img-caption {
+                font-size: 10px;
+            }
+        }
+   
